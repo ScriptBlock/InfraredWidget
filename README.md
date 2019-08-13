@@ -37,3 +37,4 @@ The workflow I use is:
  5. I physically press the power off button on the cab.  
  5a. You COULD add in a shutdown command to this script which would shut down windows and power off the TV in response to PinUP closing.  But my button-happy guests tend to accidentally exit PinUP.  So I don't do that.
 
+I know this is really high level.  Email me if you have questions.  nzambo@gmail.com
