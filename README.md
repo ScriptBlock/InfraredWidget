@@ -10,7 +10,7 @@ Note: If you are using a [pinscape board](https://os.mbed.com/users/mjr/code/Pin
 
 This repo has 3 different assets:
  1. The VS Code project is the codebase for the microcontroller to listen and respond on serial to your vpin computer.
- 2. [3D Models](3d models) are a simple little case to hold your components.  You just hot glue the components in there and screw the case top on with little M2x6 screws.
+ 2. [3D Models]("3d models") are a simple little case to hold your components.  You just hot glue the components in there and screw the case top on with little M2x6 screws.
  3. [PinUPMenu.exe startup script](scripts)
 
 The components I used are
@@ -27,7 +27,7 @@ Use platformio to build the code to your nano.  You will need to record which CO
 
 The code allows a configurable startup delay via serial, or you can just modify the code to hardcode a delay.  Just connect to the COM port at 19200 and send a string formatted D00001 thru D99999 and that many milliseconds delay will happen before the power signal gets sent to the TV.
 
-You can refer to the powershell script in the [scripts](scripts) directory.  This little guy will launch PinUPMenu, get the process ID and then waits until that process is finished.  Once done, it will send a 'P' via serial to the widget, which will then send a power command to the TV.
+You can refer to the powershell script in the [scripts](scripts) directory.  This little guy will launch PinUPMenu, get the process ID and then waits until that process is finished.  Once done, it will send a 'P' via serial to the widget, which will then send a power command to the TV.  You will have to modify the COM port referenced in the script with the COM port in use on your system.
 
 The workflow I use is:
  1. This script is launched when windows starts up (using the shell:startup folder).  
