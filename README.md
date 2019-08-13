@@ -10,7 +10,7 @@ Note: If you are using a [pinscape board](https://os.mbed.com/users/mjr/code/Pin
 
 This repo has 3 different assets:
  1. The VS Code project is the codebase for the microcontroller to listen and respond on serial to your vpin computer.
- 2. [3D Models]("3d models") are a simple little case to hold your components.  You just hot glue the components in there and screw the case top on with little M2x6 screws.
+ 2. The 3D models are a simple little case to hold your components.  You just hot glue the components in there and screw the case top on with little M2x6 screws.
  3. [PinUPMenu.exe startup script](scripts)
 
 The components I used are
